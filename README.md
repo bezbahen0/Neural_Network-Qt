@@ -1,2 +1,2 @@
-# Neural_Network-Qt
+# Neural_Network_Qt
 digit recognition
