@@ -1,2 +1,2 @@
-# Neural_Network_Qt
-digit recognition
+# govno Neural_Network_Qt
+govno digit recognition
