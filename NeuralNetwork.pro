@@ -25,22 +25,21 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-        file.cpp \
-        item.cpp \
-        main.cpp \
-        network.cpp \
-        neuron.cpp \
-        widget.cpp
+        src/file.cpp \
+    src/graphicsview.cpp \
+        src/main.cpp \
+        src/mainwindow.cpp \
+        src/network.cpp \
+        src/neuron.cpp \
 
 HEADERS += \
-        file.h \
-        item.h \
-        network.h \
-        neuron.h \
-        widget.h
+        include/file.h \
+    include/graphicsview.h \
+        include/network.h \
+        include/neuron.h  \
+        include/mainwindow.h \
 
-FORMS += \
-    widget.ui
+
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
